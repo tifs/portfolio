@@ -16,12 +16,12 @@ app.get('/index', function(req,res){
 	res.render('index.ejs');
 });
 
-app.get('/work/mario_xsonic', function(req,res){
+app.get('/work/mario_sonic', function(req,res){
 	res.render('work/mario_sonic.ejs');
 });
 
 app.get('/work/dinolife', function(req,res){
-	res.render('work/dinolife.ejs');
+	res.render('work/dino_life.ejs');
 });
 
 app.get('/work/got2b', function(req,res){
@@ -41,15 +41,15 @@ app.get('/work/kreate', function(req,res){
 });
 
 app.get('/work/urgentgenius', function(req,res){
-	res.render('work/urgentgenius.ejs');
+	res.render('work/urgent_genius.ejs');
 });
 
-app.get('/fun/typothesis', function(req,res){
-	res.render('fun/typothesis.ejs');
+app.get('/play/typothesis', function(req,res){
+	res.render('play/typothesis.ejs');
 });
 
-app.get('/fun/states', function(req,res){
-	res.render('fun/states.ejs');
+app.get('/play/states', function(req,res){
+	res.render('play/states.ejs');
 });
 
 app.get('/about', function(req,res){

@@ -10,13 +10,27 @@ div {
 	text-align: center;
 }
 
-.one {
-	background: tomato;
-	padding: 5px;
-	height: 450px;
-	border: 1px solid white;
+.head {
+	font-size: 4em;
+	text-align: right;
+	font-weight: bold;
+	letter-spacing: -2.5px;
+}
 
-	line-height: 150px;
+.subhead {
+	text-align: right;
+	letter-spacing: -1px;
+}
+
+.intro {
+	padding-top: 20px;
+	text-align: left;
+}
+
+.one {
+	/*background: tomato;*/
+	padding: 5px;
+	border: 1px solid white;
 	color: white;
 	font-weight: bold;
 	font-size: 3em;
@@ -24,12 +38,9 @@ div {
 }
 
 .two, .three, .four, .five, .six, .seven, .eight {
-	background: tomato;
+	/*background: tomato;*/
 	padding: 5px;
-	height: 150px;
 	border: 1px solid white;
-
-	line-height: 150px;
 	color: white;
 	font-weight: bold;
 	font-size: 3em;
@@ -74,7 +85,7 @@ body.on header a {
 
 img, embed, object, video, iframe {
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
 
 body {
@@ -87,15 +98,10 @@ h1, p {
 	margin: auto;
 }
 
-h1 {
-	font-size: 2em;
+h1, h3 {
 	font-family: 'Cutive Mono', serif;
-	padding: 3% 3% 1%;
 }
 
-p {
-	padding: 1% 3% 2%;
-}
 
 a {
 	color: rgba(195, 94, 42, 1);
@@ -112,28 +118,25 @@ li, a {
 	-ms-transition: all 0.3s ease-in-out;
 	}
 
-nav {
-	width: 100%;
-	font-family: 'Cutive Mono', serif;
-	text-transform: lowercase;
-	position: fixed;
-	vertical-align: baseline;
-	bottom: 0%;
-	background-color: rgba(255, 255, 255, 0.8);
-}
+
+
+/*a:active, a:hover*/
 
 .main-nav {
 	text-align: center;
 	position: relative;
-	/* float: left; */
+	text-transform: lowercase;
+	font-family: 'Cutive Mono', serif;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin: 10px 0px 130px;
 }
 
 .sub-nav {
 	display: none;
 	position: absolute;
-	bottom:110%;
 	text-align: left;
 	line-height: 1.2em;
+	font-family: 'Cutive Mono', serif;
 }
 
 .main-nav ul:hover ul {
@@ -146,11 +149,6 @@ nav {
 	background-color: rgba(195, 94, 42, 1);
 	text-decoration: none;
 }
-
-
-  div {
-     text-align: left;
-  }
 
 
 
