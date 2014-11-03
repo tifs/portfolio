@@ -85,7 +85,7 @@ body.on header a {
 
 img, embed, object, video, iframe {
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 body {
@@ -123,11 +123,10 @@ li, a {
 /*a:active, a:hover*/
 
 .main-nav {
-	text-align: center;
 	position: relative;
 	text-transform: lowercase;
 	font-family: 'Cutive Mono', serif;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.5);
 	margin: 10px 0px 130px;
 }
 
@@ -149,6 +148,16 @@ li, a {
 	background-color: rgba(195, 94, 42, 1);
 	text-decoration: none;
 }
+
+/*.sticky {  
+  position: fixed;
+  width: 100%;   
+  margin: auto;
+  top: 0;  
+  z-index: 100;  
+  border-top: 0;
+  margin-bottom: 150px;
+}*/
 
 
 
