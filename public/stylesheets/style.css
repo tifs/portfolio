@@ -4,49 +4,11 @@ font-family: 'Arvo', serif;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-family: "Geneva", sans-serif;*/
 
-
-/* BEGIN GREG'S HELP */
 div {
-	text-align: center;
+	/*text-align: center;*/
 }
 
-.head {
-	font-size: 4em;
-	text-align: right;
-	font-weight: bold;
-	letter-spacing: -2.5px;
-}
-
-.subhead {
-	text-align: right;
-	letter-spacing: -1px;
-}
-
-.intro {
-	padding-top: 20px;
-	text-align: left;
-}
-
-.one {
-	/*background: tomato;*/
-	padding: 5px;
-	border: 1px solid white;
-	color: white;
-	font-weight: bold;
-	font-size: 3em;
-	text-align: center;
-}
-
-.two, .three, .four, .five, .six, .seven, .eight {
-	/*background: tomato;*/
-	padding: 5px;
-	border: 1px solid white;
-	color: white;
-	font-weight: bold;
-	font-size: 3em;
-	text-align: center;
-}
-
+/* styling for header logo image */
 header {
   	background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
   	background-attachment: fixed;
@@ -66,7 +28,9 @@ header a {
 
 body {
 	margin: 0;
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(45, 47, 47, 1);
+	font-family: 'PT Sans', sans-serif;
 	font: 2em / 1.5em;
 }
 
@@ -81,17 +45,75 @@ body.on header a {
 	background-position: 0 -0px;
 /* make opacity 0 to 100 */
 }
-/* END GREG'S HELP */
+
+
+/* styling for nav bar */
+.main-nav {
+	position: relative;
+	/*text-align: center;*/
+	text-transform: lowercase;
+	font-family: 'Cutive Mono', serif;
+	background-color: rgba(255, 255, 255, 1);
+	margin: 20px 0px 130px 0px;
+}
+
+.sticky {  
+  position: fixed;
+  width: 100%;   
+  margin: auto;
+  top: -20px;  
+  z-index: 100;  
+  margin-bottom: 150px;
+}
+
+.sub-nav {
+	display: none;
+	position: relative;
+	text-align: left;
+	line-height: 1.2em;
+	font-family: 'Cutive Mono', serif;
+}
+
+.main-nav:hover ul {
+	display: inline;
+}
+
+.main-nav:hover a {
+	color: white;
+	background-color: rgba(195, 94, 42, 1);
+	text-decoration: none;
+}
+
+
+/* styling for each project's intro */
+.intro-title {
+	font-size: 4em;
+	text-align: right;
+	font-weight: bold;
+	letter-spacing: -2.5px;
+}
+
+.intro-head {
+	text-align: right;
+	letter-spacing: -1px;
+}
+
+.intro-body {
+	padding-top: 20px;
+	text-align: left;
+}
+
+
+/* general element styling*/
+
+.row {
+	height: 20px;
+}
+
 
 img, embed, object, video, iframe {
 	width: 100%;
 	height: 100%;
-}
-
-body {
-	background-color: rgba(255, 255, 255, 1);
-	font-family: 'PT Sans', sans-serif;
-	color: rgba(45, 47, 47, 1);
 }
 
 h1, p {
@@ -120,44 +142,32 @@ li, a {
 
 
 
-/*a:active, a:hover*/
 
-.main-nav {
-	position: relative;
-	text-transform: lowercase;
-	font-family: 'Cutive Mono', serif;
-	background-color: rgba(255, 255, 255, 0.5);
-	margin: 10px 0px 130px;
-}
 
-.sub-nav {
-	display: none;
-	position: absolute;
-	text-align: left;
-	line-height: 1.2em;
-	font-family: 'Cutive Mono', serif;
-}
 
-.main-nav ul:hover ul {
-	display: block;
-	text-decoration: none;
-}
 
-.main-nav ul:hover a {
+/* styles for responsive boxes*/
+.one {
+	/*background: tomato;*/
+	padding: 5px;
+	border: 1px solid white;
 	color: white;
-	background-color: rgba(195, 94, 42, 1);
-	text-decoration: none;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
 }
 
-/*.sticky {  
-  position: fixed;
-  width: 100%;   
-  margin: auto;
-  top: 0;  
-  z-index: 100;  
-  border-top: 0;
-  margin-bottom: 150px;
-}*/
+.two, .three, .four, .five, .six, .seven, .eight {
+	/*background: tomato;*/
+	padding: 5px;
+	border: 1px solid white;
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+
+
 
 
 
@@ -198,4 +208,4 @@ li, a {
 
 .clearfix {
 	display: block;
-} */
+} 

@@ -1,23 +1,23 @@
-// $(document).ready(function() {  
-// 	var stickyNavTop = $('.main-nav').offset().top;  
+$(document).ready(function() {  
+	var stickyNavTop = $('.columnz').offset().top;  
   
-// 	var stickyNav = function(){  
-// 	var scrollTop = $(window).scrollTop();  
+	var stickyNav = function(){  
+	var scrollTop = $(window).scrollTop();  
        
-// if (scrollTop > stickyNavTop) {   
-//   $('.main-nav').addClass('sticky');  
-// 	} else {  
-//   $('.main-nav').removeClass('sticky');   
-// 	}  
-// };  
+if (scrollTop > stickyNavTop) {   
+  $('.columnz').addClass('sticky');  
+	} else {  
+  $('.columnz').removeClass('sticky');   
+	}  
+};  
   
-// stickyNav();  
+stickyNav();  
   
-// $(window).scroll(function() {  
-//   stickyNav();  
-// 	});  
-// });  
+$(window).scroll(function() {  
+  stickyNav();  
+	});  
+});  
 
-$(document).ready(function() {
-  $('.header').scrollToFixed();
-  });
+// $(document).ready(function() {
+//   $('.header').scrollToFixed();
+//   });
