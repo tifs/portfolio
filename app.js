@@ -1,6 +1,7 @@
 // dependencies
 var express = require("express"),
-app = express();
+app = express(),
+request = require("request");
 
 // middle ware
 
@@ -53,8 +54,14 @@ app.get('/play/states', function(req,res){
 });
 
 app.get('/about', function(req,res){
-	res.render('about/about.ejs');
+	var wnwUrl = "https://www.kimonolabs.com/api/alnefw9q?apikey=eEQAr4JifJfWjFfbzUIIAFnWC3Sh6uLT";
+	request(wnwUrl, function (err, response, body) {
+  	console.log(body);
+  	var wnwResult = (JSON.parse(body));
+		res.render('about/about.ejs', {wnwResult: wnwResult});
+	});
 });
+
 
 app.get('/tumblr', function(req,res){
 	res.render('tumblr/tumblr.ejs');

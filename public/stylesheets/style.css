@@ -159,9 +159,6 @@ li, a {
 
 
 
-
-
-
 /* styles for responsive boxes*/
 .one {
 	/*background: tomato;*/
@@ -225,3 +222,10 @@ li, a {
 .clearfix {
 	display: block;
 } 
+
+/* LEMEME! */
+/*.webkit #masthead h1 a { background:url('http://www.lememe.com/wp-content/uploads/2013/01/DARK-WEB-HACKERS-CARE-OF-BEEP-IAMS-LOFI.gif') repeat top left; -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+		.webkit #masthead h1 a.hover { color:#000; -webkit-text-fill-color:black; background:none; }
+		#masthead h1 a:hover { color:#fff; }
+
+*/
