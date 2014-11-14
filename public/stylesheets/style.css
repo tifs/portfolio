@@ -1,9 +1,3 @@
-/*font-family: "Cutive Mono", serif;
-font-family: "PT Sans", sans-serif;
-font-family: 'Arvo', serif; 
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-family: "Geneva", sans-serif;*/
-
 div {
 	/*text-align: center;*/
 }
@@ -30,8 +24,9 @@ body {
 	margin: 0;
 	background-color: rgba(255, 255, 255, 1);
 	color: rgba(45, 47, 47, 1);
-	font-family: 'PT Sans', sans-serif;
+	font-family: "courier new", Courier, Arial, Helvetica, sans-serif;
 	font: 2em / 1.5em;
+	margin-bottom: 100px;
 }
 
 body.on {
@@ -51,8 +46,9 @@ body.on header a {
 .main-nav {
 	position: relative;
 	text-align: center;
+	z-index: 100;
 	text-transform: lowercase;
-	font-family: 'Cutive Mono', serif;
+	font-family: 'Cutive Mono', Courier, serif;
 	background-color: rgba(255, 255, 255, 1);
 	margin: 20px 0px 130px 0px;
 }
@@ -63,23 +59,25 @@ body.on header a {
 	padding: 0;
 	text-align: left;
 	line-height: 1.2em;
-	font-family: 'Cutive Mono', serif;
+	font-family: 'Cutive Mono', Courier, serif;
 }
 
 .fixed-nav {
 	position: fixed;
-	height: 20px;
-	width: 100%;
+	height: auto;
+	width: 98%;
+	top: -65px;
 	margin: 0;
 	padding: 0;
-	z-index: 1000;
-	top: -65px;
+	z-index: 100;
 	transition: top 600ms;
 	text-align: center;
 	text-transform: lowercase;
-	font-family: 'Cutive Mono', serif;
+	font-family: 'Cutive Mono', Courier, serif;
 	background-color: rgba(255, 255, 255, 1);
+	margin-right: 20px;
 }
+
 
 .main-nav:hover ul {
 	display: inline;
@@ -142,7 +140,7 @@ h1, p {
 }
 
 h1, h3 {
-	font-family: 'Cutive Mono', serif;
+	font-family: 'Cutive Mono', Courier, serif;
 }
 
 

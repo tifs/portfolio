@@ -19,9 +19,6 @@ function kimonoCallback(data) {
 });
 
 
-  // api key: eEQAr4JifJfWjFfbzUIIAFnWC3Sh6uLT
-
-
   // LEMEME!
 
   // $('#masthead h1 a').hover(
