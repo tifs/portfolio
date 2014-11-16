@@ -2,8 +2,22 @@ div {
 	/*text-align: center;*/
 }
 
-/* styling for header logo image */
 header {
+	width: 13%;
+  margin: 10px auto;
+  /*background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;*/
+}
+
+/*h1, h2, h3, h4, h5, h6, ul, ol, dl, fieldset, p, table, pre, hr {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em; 
+}*/
+
+/* styling for header logo image */
+/*header {
   	background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
   	background-attachment: fixed;
  		background-size: cover;
@@ -18,7 +32,7 @@ header a {
   		text-indent: -9000px;
   		display: block;
   		height: 71px;
-}
+}*/
 
 body {
 	margin: 0;
@@ -79,11 +93,11 @@ body.on header a {
 }
 
 
-.main-nav:hover ul {
+.main-nav:hover li ul {
 	display: inline;
 }
 
-.main-nav:hover a {
+.main-nav a:hover {
 	color: white;
 	background-color: rgba(195, 94, 42, 1);
 	text-decoration: none;
