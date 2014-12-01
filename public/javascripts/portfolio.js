@@ -1,10 +1,34 @@
+// fixed-nav reveal on scroll
 $(window).scroll(function(e) {
-    if(window.scrollY > 130) {
+    // once someone scrolls past a certain number of pixels on the y-axis...
+    if(window.scrollY > 160) {
+      // we reveal fixed-nav on the page by changing the top in css to 0px
       $('.fixed-nav').css('top', '0px');
 } else {
+      // otherwise, we keep it hidden from the page, at top -65px 
       $('.fixed-nav').css('top', '-65px');
     }
   });
+
+
+$("ul.main-nav > li, ul.fixed-nav > li").on("mouseover", function(){
+  $("> ul", this).toggleClass("revealed");
+});
+
+$("ul.main-nav > li, ul.fixed-nav > li").on("mouseout", function(){
+  $("> ul", this).toggleClass("revealed");
+});
+
+// $(".weirdHover").hover(function(){
+//     holder = $(this).html();
+//     var t = holder;
+//     var len = t.length;
+//     $(this).everyTime(20,function(i){
+//       var newstring = "";
+//       for (var i=0;i<len;i++)
+//       {
+//         newstring = newstring + String.fromCharCode(97 + Math.round(Math.random() * 25));
+//       }
        
 
 function kimonoCallback(data) {
