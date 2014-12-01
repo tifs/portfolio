@@ -1,15 +1,107 @@
-div {
-	/*text-align: center;*/
+/*  code for small screens (i.e. phones and "phablets"...what an awful word)  */
+
+
+
+
+/*  code for medium screens (i.e. tablets)  */
+@media (min-width: @screen-sm-min) {
+	header {
+	  margin: 10px auto;
+	  /*background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: top center;*/
+	}
 }
 
-header {
-	width: 13%;
-  margin: 10px auto;
-  /*background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: top center;*/
+
+/*  code for large screens (i.e. laptops and desktops)  */
+@media (min-width: @screen-md-min) { 
+	header {
+	  margin: 10px auto;
+	  /*background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: top center;*/
+	}
 }
+
+
+/* styling for nav bar */
+.main-nav {
+	z-index: 1000;
+	position: relative;
+	text-align: center;
+	text-transform: lowercase;
+	background-color: rgba(255, 255, 255, 1);
+	margin: -10px 0px 20px 0px;
+}
+
+.sub-nav {
+	z-index: 1000;
+	visibility: hidden;
+	position: absolute;
+	padding: 0;
+	width: 100%;
+	left: 42%;
+	text-align: left;
+	line-height: 1.2em;
+}
+
+.sub-nav a {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.fixed-nav {
+	z-index: 1000;
+	position: fixed;
+	height: auto;
+	width: 95%;
+	top: -65px;
+	transition: top 600ms;
+	text-align: center;
+	text-transform: lowercase;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+
+.main-nav:hover li ul {
+	display: inline;
+}
+
+.main-nav a:hover, .main-nav a:active, .fixed-nav a:hover, .fixed-nav a:active {
+	color: white;
+	background-color: rgba(195, 94, 42, 1);
+	text-decoration: none;
+}
+
+
+/* styling for each project's intro */
+.intro-title {
+	font-size: 4em;
+	font-family: 'Open Sans', sans-serif;
+	/*font-weight: 700;*/
+	text-align: right;
+	font-weight: bold;
+	letter-spacing: -2.5px;
+}
+
+.intro-head {
+	text-align: right;
+	letter-spacing: -1px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600px;
+}
+
+.intro-body {
+	padding-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+}
+
+
+
+
 
 /*h1, h2, h3, h4, h5, h6, ul, ol, dl, fieldset, p, table, pre, hr {
 	margin-top: 1.5em;
@@ -34,13 +126,28 @@ header a {
   		height: 71px;
 }*/
 
+
+
+.blue {
+	background-color: blue;
+}
+
+
+
+
+
+
+
+
+/*  styling for general elements  */
+
 body {
 	margin: 0;
 	background-color: rgba(255, 255, 255, 1);
 	color: rgba(45, 47, 47, 1);
-	font-family: "courier new", Courier, Arial, Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font: 2em / 1.5em;
-	margin-bottom: 100px;
+	margin-bottom: 10%;
 }
 
 body.on {
@@ -55,92 +162,14 @@ body.on header a {
 /* make opacity 0 to 100 */
 }
 
-
-/* styling for nav bar */
-.main-nav {
-	position: relative;
-	text-align: center;
-	z-index: 100;
-	text-transform: lowercase;
-	font-family: 'Cutive Mono', Courier, serif;
-	background-color: rgba(255, 255, 255, 1);
-	margin: 20px 0px 130px 0px;
-}
-
-.sub-nav {
-	display: none;
-	position: absolute;
-	padding: 0;
-	text-align: left;
-	line-height: 1.2em;
-	font-family: 'Cutive Mono', Courier, serif;
-}
-
-.fixed-nav {
-	position: fixed;
-	height: auto;
-	width: 98%;
-	top: -65px;
-	margin: 0;
-	padding: 0;
-	z-index: 100;
-	transition: top 600ms;
-	text-align: center;
-	text-transform: lowercase;
-	font-family: 'Cutive Mono', Courier, serif;
-	background-color: rgba(255, 255, 255, 1);
-	margin-right: 20px;
-}
-
-
-.main-nav:hover li ul {
-	display: inline;
-}
-
-.main-nav a:hover {
-	color: white;
-	background-color: rgba(195, 94, 42, 1);
-	text-decoration: none;
-}
-
-.fixed-nav:hover ul {
-	display: inline;
-}
-
-.fixed-nav:hover a {
-	color: white;
-	background-color: rgba(195, 94, 42, 1);
-	text-decoration: none;
-}
-
-
-/* styling for each project's intro */
-.intro-title {
-	font-size: 4em;
-	text-align: right;
-	font-weight: bold;
-	letter-spacing: -2.5px;
-}
-
-.intro-head {
-	text-align: right;
-	letter-spacing: -1px;
-}
-
-.intro-body {
-	padding-top: 20px;
-	text-align: left;
-}
-
-
-/* general element styling*/
-
 .row {
 	margin: 0;
+	margin-bottom: 6%;
 }
 
-ul {
+ul, li {
 	padding: 0;
+	margin: 0;
 }
 
 
@@ -154,7 +183,7 @@ h1, p {
 }
 
 h1, h3 {
-	font-family: 'Cutive Mono', Courier, serif;
+	font-family: 'Helvetica Neue', 'Cutive Mono', Courier, serif;
 }
 
 
@@ -162,37 +191,12 @@ li, a {
 	color: rgba(195, 94, 42, 1);
 	text-decoration: none;
 	list-style-type: none;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
+	line-height: 1.4em;
 	}
 
-
-
-
-/* styles for responsive boxes*/
-.one {
-	/*background: tomato;*/
-	padding: 5px;
-	border: 1px solid white;
-	color: white;
-	font-weight: bold;
-	font-size: 3em;
-	text-align: center;
+.revealed {
+	visibility: visible;
 }
-
-.two, .three, .four, .five, .six, .seven, .eight {
-	/*background: tomato;*/
-	padding: 5px;
-	border: 1px solid white;
-	color: white;
-	font-weight: bold;
-	font-size: 3em;
-	text-align: center;
-}
-
-
 
 
 
