@@ -16,7 +16,7 @@
 
 
 /*  code for large screens (i.e. laptops and desktops)  */
-@media (min-width: @screen-md-min) { 
+@media (min-width: @screen-md-min) {
 	header {
 	  margin: 10px auto;
 	  /*background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
@@ -55,13 +55,22 @@
 .fixed-nav {
 	z-index: 1000;
 	position: fixed;
-	height: auto;
+	height: 1.6em;
 	width: 95%;
 	top: -65px;
 	transition: top 600ms;
 	text-align: center;
 	text-transform: lowercase;
 	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0 9px 30px -8px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 9px 30px -8px rgba(0, 0, 0, 0.3);
+ 	-moz-box-shadow: 0 9px 30px -8px rgba(0, 0, 0, 0.3);
+}
+
+.fixed-nav a {
+	box-shadow: 0 9px 30px -8px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 9px 30px -8px rgba(0, 0, 0, 0.3);
+ 	-moz-box-shadow: 0 9px 30px -8px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -105,7 +114,7 @@
 
 /*h1, h2, h3, h4, h5, h6, ul, ol, dl, fieldset, p, table, pre, hr {
 	margin-top: 1.5em;
-	margin-bottom: 1.5em; 
+	margin-bottom: 1.5em;
 }*/
 
 /* styling for header logo image */
@@ -203,7 +212,7 @@ li, a {
 /* Clear Floated Elements
 ----------------------------------------------------------------------------------------------------
 
-/* http://sonspring.com/journal/clearing-floats 
+/* http://sonspring.com/journal/clearing-floats
 
 .clear {
 	clear: both;
@@ -214,7 +223,7 @@ li, a {
 	height: 0;
 }
 
-/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack 
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack
 
 .clearfix:after {
 	clear: both;
@@ -237,7 +246,7 @@ li, a {
 
 .clearfix {
 	display: block;
-} 
+}
 
 /* LEMEME! */
 /*.webkit #masthead h1 a { background:url('http://www.lememe.com/wp-content/uploads/2013/01/DARK-WEB-HACKERS-CARE-OF-BEEP-IAMS-LOFI.gif') repeat top left; -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }

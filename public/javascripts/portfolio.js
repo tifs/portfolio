@@ -5,7 +5,7 @@ $(window).scroll(function(e) {
       // we reveal fixed-nav on the page by changing the top in css to 0px
       $('.fixed-nav').css('top', '0px');
 } else {
-      // otherwise, we keep it hidden from the page, at top -65px 
+      // otherwise, we keep it hidden from the page, at top -65px
       $('.fixed-nav').css('top', '-65px');
     }
   });
@@ -29,7 +29,7 @@ $("ul.main-nav > li, ul.fixed-nav > li").on("mouseout", function(){
 //       {
 //         newstring = newstring + String.fromCharCode(97 + Math.round(Math.random() * 25));
 //       }
-       
+
 
 function kimonoCallback(data) {
     // do something with the data
