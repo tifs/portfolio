@@ -4,26 +4,33 @@
 
 
 /*  code for medium screens (i.e. tablets)  */
-@media (min-width: @screen-sm-min) {
+/*@media (min-width: @screen-sm-min) {
 	header {
 	  margin: 10px auto;
-	  /*background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
+	  width: 20%;
+	  background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
 		background-attachment: fixed;
 		background-size: cover;
-		background-position: top center;*/
+		background-position: top center;
 	}
-}
+}*/
 
 
 /*  code for large screens (i.e. laptops and desktops)  */
-@media (min-width: @screen-md-min) {
+/*@media (min-width: @screen-md-min) {
 	header {
 	  margin: 10px auto;
-	  /*background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
+	  width: 20%;
+	  background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
 		background-attachment: fixed;
 		background-size: cover;
-		background-position: top center;*/
+		background-position: top center;
 	}
+}*/
+
+header {
+  margin: 10px auto;
+  width: 20%;
 }
 
 
@@ -34,7 +41,7 @@
 	text-align: center;
 	text-transform: lowercase;
 	background-color: rgba(255, 255, 255, 1);
-	margin: -10px 0px 20px 0px;
+	margin: -10px 0px 0px 0px;
 }
 
 .sub-nav {
@@ -50,6 +57,9 @@
 
 .sub-nav a {
 	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+ 	-moz-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .fixed-nav {
