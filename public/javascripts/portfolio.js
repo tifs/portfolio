@@ -19,16 +19,6 @@ $("ul.main-nav > li, ul.fixed-nav > li").on("mouseout", function(){
   $("> ul", this).toggleClass("revealed");
 });
 
-// $(".weirdHover").hover(function(){
-//     holder = $(this).html();
-//     var t = holder;
-//     var len = t.length;
-//     $(this).everyTime(20,function(i){
-//       var newstring = "";
-//       for (var i=0;i<len;i++)
-//       {
-//         newstring = newstring + String.fromCharCode(97 + Math.round(Math.random() * 25));
-//       }
 
 
 function kimonoCallback(data) {
@@ -57,15 +47,30 @@ function kimonoCallback(data) {
   // );
 
 
-// CODE FOR COOL HOVER - from @er_d0s
+// // CODE FOR COOL HOVER - from @er_d0s – doesn't work yet
+// $(".sub-nav").hover(function(){
+//   holder = $(this).html();
+//   var t = holder;
+//   var len = t.length;
+//   $(this).everyTime(20,function(i){
+//     var newstring = "";
+//     for (var i=0;i<len;i++)
+//     {
+//       newstring = newstring + String.fromCharCode(97 + Math.round(Math.random() * 25));
+//     }
+//   });
+// });
+
+
+// // CODE FOR COOL HOVER - from @er_d0s – doesn't work yet
 // var holder;
 // $(document).ready(function(){
-//   $(".weirdHover").mousedown(function(e){
+//   $(".sub-nav").mousedown(function(e){
 //     $(this).stopTime();
 //     e.preventDefault();
 //     window.location=$(this).attr("href");
 //   });
-//   $(".weirdHover").hover(function(){
+//   $(".sub-nav").hover(function(){
 //     holder = $(this).html();
 //     var t = holder;
 //     var len = t.length;

@@ -1,38 +1,65 @@
-/*  code for small screens (i.e. phones and "phablets"...what an awful word)  */
+/*code for extra small-ish screens and up (i.e. phones and "phablets"...what an awful word)  */
 
-
-
-
-/*  code for medium screens (i.e. tablets)  */
-/*@media (min-width: @screen-sm-min) {
-	header {
-	  margin: 10px auto;
-	  width: 20%;
-	  background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
-		background-attachment: fixed;
-		background-size: cover;
-		background-position: top center;
-	}
-}*/
-
-
-/*  code for large screens (i.e. laptops and desktops)  */
-/*@media (min-width: @screen-md-min) {
-	header {
-	  margin: 10px auto;
-	  width: 20%;
-	  background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
-		background-attachment: fixed;
-		background-size: cover;
-		background-position: top center;
-	}
-}*/
-
-header {
-  margin: 10px auto;
-  width: 20%;
+/*  styling for general elements  */
+body {
+	margin: 0;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(45, 47, 47, 1);
+	font-family: 'Open Sans', sans-serif;
+	font: 2em / 1.5em;
+	margin-bottom: 10%;
 }
 
+.row {
+margin: 0;
+margin-bottom: 6%;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+img, embed, object, video, iframe {
+	width: 100%;
+	height: 100%;
+}
+
+h1, p {
+	margin: auto;
+}
+
+h1, h3 {
+	font-family: 'Helvetica Neue', 'Cutive Mono', Courier, serif;
+}
+
+
+li, a {
+	color: rgba(195, 94, 42, 1);
+	/*text-decoration: none;*/
+	list-style-type: none;
+	line-height: 1.4em;
+	}
+
+p a, p a:hover, p a:active {
+	color: rgba(195, 94, 42, 1);
+	text-decoration: underline;
+	line-height: 1.4em;
+	}
+
+.revealed {
+	visibility: visible;
+}
+
+/* TEST FOR MEDIA QUERIES */
+p {
+	background-color: green;
+}
+
+header {
+margin: 10px auto;
+width: 30%;
+}
 
 /* styling for nav bar */
 .main-nav {
@@ -94,10 +121,9 @@ header {
 	text-decoration: none;
 }
 
-
 /* styling for each project's intro */
 .intro-title {
-	font-size: 4em;
+	font-size: 3.5em;
 	font-family: 'Open Sans', sans-serif;
 	/*font-weight: 700;*/
 	text-align: right;
@@ -119,13 +145,78 @@ header {
 }
 
 
+/*  code for small-ish screens and up (i.e. tablets and most screens embedded in bionic arms)  */
+@media(min-width:768px) {
+p {
+	background-color: blue;
+}
+
+header {
+margin: 10px auto;
+width: 22%;
+}
+
+/*	header {
+	  margin: 10px auto;
+	  width: 20%;
+	  background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: top center;
+	}*/
+}
+
+/*  code for medium-ish screens and up (i.e. laptops and your mom's desktop)  */
+@media(min-width:992px) {
+
+	p {
+		background-color: red;
+	}
+
+	header {
+  margin: 10px auto;
+  width: 20%;
+	}
+
+/*	header {
+	  margin: 10px auto;
+	  width: 20%;
+	  background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: top center;
+	}*/
+}
+
+/* code for extra large-ish screens and up (i.e. big desktops and supervillain monitors */
+@media(min-width:1200px) {
+
+	p {
+		background-color: orange;
+	}
+
+	header {
+  margin: 10px auto;
+  width: 18%;
+}
+
+}
 
 
 
-/*h1, h2, h3, h4, h5, h6, ul, ol, dl, fieldset, p, table, pre, hr {
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
-}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* styling for header logo image */
 /*header {
@@ -147,29 +238,8 @@ header a {
 
 
 
-.blue {
-	background-color: blue;
-}
 
-
-
-
-
-
-
-
-/*  styling for general elements  */
-
-body {
-	margin: 0;
-	background-color: rgba(255, 255, 255, 1);
-	color: rgba(45, 47, 47, 1);
-	font-family: 'Open Sans', sans-serif;
-	font: 2em / 1.5em;
-	margin-bottom: 10%;
-}
-
-body.on {
+/*body.on {
 	background-image: url(http://www.gardenmandy.com/wp-content/uploads/2008/05/orangatang.jpg);
 	background-size: cover;
 	background-position: top center;
@@ -178,89 +248,13 @@ body.on {
 
 body.on header a {
 	background-position: 0 -0px;
-/* make opacity 0 to 100 */
-}
-
-.row {
-	margin: 0;
-	margin-bottom: 6%;
-}
-
-ul, li {
-	padding: 0;
-	margin: 0;
-}
+/* make opacity 0 to 100
+}*/
 
 
-img, embed, object, video, iframe {
-	width: 100%;
-	height: 100%;
-}
-
-h1, p {
-	margin: auto;
-}
-
-h1, h3 {
-	font-family: 'Helvetica Neue', 'Cutive Mono', Courier, serif;
-}
-
-
-li, a {
-	color: rgba(195, 94, 42, 1);
-	text-decoration: none;
-	list-style-type: none;
-	line-height: 1.4em;
-	}
-
-.revealed {
-	visibility: visible;
-}
-
-
-
-/* Clear Floated Elements
-----------------------------------------------------------------------------------------------------
-
-/* http://sonspring.com/journal/clearing-floats
-
-.clear {
-	clear: both;
-	display: block;
-	overflow: hidden;
-	visibility: hidden;
-	width: 0;
-	height: 0;
-}
-
-/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack
-
-.clearfix:after {
-	clear: both;
-	content: ' ';
-	display: block;
-	font-size: 0;
-	line-height: 0;
-	visibility: hidden;
-	width: 0;
-	height: 0;
-}
-
-.clearfix {
-	display: inline-block;
-}
-
-* html .clearfix {
-	height: 1%;
-}
-
-.clearfix {
-	display: block;
-}
 
 /* LEMEME! */
 /*.webkit #masthead h1 a { background:url('http://www.lememe.com/wp-content/uploads/2013/01/DARK-WEB-HACKERS-CARE-OF-BEEP-IAMS-LOFI.gif') repeat top left; -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
 		.webkit #masthead h1 a.hover { color:#000; -webkit-text-fill-color:black; background:none; }
 		#masthead h1 a:hover { color:#fff; }
 
-*/
