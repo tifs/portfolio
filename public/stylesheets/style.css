@@ -47,10 +47,6 @@ p a, p a:hover, p a:active {
 	line-height: 1.4em;
 	}
 
-.revealed {
-	visibility: visible;
-}
-
 /* TEST FOR MEDIA QUERIES */
 p {
 	background-color: white;
@@ -248,7 +244,10 @@ width: 22%;
 
 }
 
-
+/* KEEP THIS AT THE BOTTOM PLEASE */
+.revealed {
+	visibility: visible;
+}
 
 
 
