@@ -53,7 +53,7 @@ p a, p a:hover, p a:active {
 
 /* TEST FOR MEDIA QUERIES */
 p {
-	background-color: green;
+	background-color: white;
 }
 
 header {
@@ -123,23 +123,23 @@ width: 30%;
 
 /* styling for each project's intro */
 .intro-title {
-	font-size: 3.5em;
+	font-size: 3em;
 	font-family: 'Open Sans', sans-serif;
 	/*font-weight: 700;*/
-	text-align: right;
+	text-align: left;
 	font-weight: bold;
 	letter-spacing: -2.5px;
 }
 
 .intro-head {
-	text-align: right;
+	text-align: left;
 	letter-spacing: -1px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600px;
 }
 
 .intro-body {
-	padding-top: 20px;
+	padding-top: 0px;
 	font-family: 'Open Sans', sans-serif;
 	text-align: left;
 }
@@ -148,12 +148,35 @@ width: 30%;
 /*  code for small-ish screens and up (i.e. tablets and most screens embedded in bionic arms)  */
 @media(min-width:768px) {
 p {
-	background-color: blue;
+	background-color: white;
 }
 
 header {
 margin: 10px auto;
 width: 22%;
+}
+
+/* styling for each project's intro */
+.intro-title {
+	font-size: 3em;
+	font-family: 'Open Sans', sans-serif;
+	/*font-weight: 700;*/
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: -2.5px;
+}
+
+.intro-head {
+	text-align: left;
+	letter-spacing: -1px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600px;
+}
+
+.intro-body {
+	padding-top: 0px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
 }
 
 /*	header {
@@ -170,12 +193,35 @@ width: 22%;
 @media(min-width:992px) {
 
 	p {
-		background-color: red;
+		background-color: white;
 	}
 
 	header {
   margin: 10px auto;
   width: 20%;
+	}
+
+	/* styling for each project's intro */
+	.intro-title {
+		font-size: 3.5em;
+		font-family: 'Open Sans', sans-serif;
+		/*font-weight: 700;*/
+		text-align: right;
+		font-weight: bold;
+		letter-spacing: -2.5px;
+	}
+
+	.intro-head {
+		text-align: right;
+		letter-spacing: -1px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600px;
+	}
+
+	.intro-body {
+		padding-top: 20px;
+		font-family: 'Open Sans', sans-serif;
+		text-align: left;
 	}
 
 /*	header {
@@ -192,7 +238,7 @@ width: 22%;
 @media(min-width:1200px) {
 
 	p {
-		background-color: orange;
+		background-color: white;
 	}
 
 	header {
