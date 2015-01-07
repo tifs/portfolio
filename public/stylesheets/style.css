@@ -1,12 +1,17 @@
 /*code for extra small-ish screens and up (i.e. phones and "phablets"...what an awful word)  */
 
 /*  styling for general elements  */
+
+html {
+  font-size: 12px; /* the base size for all rem in this media query */
+}
+
 body {
 	margin: 0;
 	background-color: rgba(255, 255, 255, 1);
 	color: rgba(45, 47, 47, 1);
 	font-family: 'Open Sans', sans-serif;
-	font: 2em / 1.5em;
+	font: 2rem / 1.5rem;
 	margin-bottom: 10%;
 }
 
@@ -38,13 +43,13 @@ li, a {
 	color: rgba(195, 94, 42, 1);
 	/*text-decoration: none;*/
 	list-style-type: none;
-	line-height: 1.4em;
+	line-height: 1.4rem;
 	}
 
 p a, p a:hover, p a:active {
 	color: rgba(195, 94, 42, 1);
 	text-decoration: underline;
-	line-height: 1.4em;
+	line-height: 1.4rem;
 	}
 
 /* TEST FOR MEDIA QUERIES */
@@ -75,7 +80,7 @@ width: 40%;
 	width: 100%;
 	left: 42%;
 	text-align: left;
-	line-height: 1.2em;
+	line-height: 1.2rem;
 }
 
 .sub-nav a {
@@ -88,7 +93,7 @@ width: 40%;
 .fixed-nav {
 	z-index: 1000;
 	position: fixed;
-	height: 1.6em;
+	height: 1.6rem;
 	width: 95%;
 	top: -65px;
 	transition: top 600ms;
@@ -119,7 +124,7 @@ width: 40%;
 
 /* styling for each project's intro */
 .intro-title {
-	font-size: 3em;
+	font-size: 3rem;
 	font-family: 'Open Sans', sans-serif;
 	/*font-weight: 700;*/
 	text-align: left;
@@ -154,7 +159,7 @@ width: 22%;
 
 /* styling for each project's intro */
 .intro-title {
-	font-size: 3em;
+	font-size: 3rem;
 	font-family: 'Open Sans', sans-serif;
 	/*font-weight: 700;*/
 	text-align: left;
@@ -199,7 +204,7 @@ width: 22%;
 
 	/* styling for each project's intro */
 	.intro-title {
-		font-size: 3.5em;
+		font-size: 3.5rem;
 		font-family: 'Open Sans', sans-serif;
 		/*font-weight: 700;*/
 		text-align: right;
