@@ -46,12 +46,32 @@ app.get('/work/urgentgenius', function(req,res){
 	res.render('work/urgent_genius.ejs');
 });
 
+app.get('/work/contestofchampions', function(req,res){
+	res.render('work/contest_of_champions.ejs');
+});
+
+app.get('/work/minus8', function(req,res){
+	res.render('work/minus_8.ejs');
+});
+
 app.get('/play/typothesis', function(req,res){
 	res.render('play/typothesis.ejs');
 });
 
 app.get('/play/states', function(req,res){
 	res.render('play/states.ejs');
+});
+
+app.get('/play/malkovich', function(req,res){
+	res.render('play/browsing_john_malkovich.ejs');
+});
+
+app.get('/play/helium', function(req,res){
+	res.render('play/helium.ejs');
+});
+
+app.get('/play/plantpeople', function(req,res){
+	res.render('play/plant_people.ejs');
 });
 
 app.get('/about', function(req,res){
