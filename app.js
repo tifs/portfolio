@@ -83,7 +83,6 @@ app.get('/about', function(req,res){
 	});
 });
 
-
 app.get('/tumblr', function(req,res){
 	res.render('tumblr/tumblr.ejs');
 });
