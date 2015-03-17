@@ -3,7 +3,7 @@
 /*  styling for general elements  */
 
 html {
-  font-size: 12px; /* the base size for all rem in this media query */
+  font-size: 14px; /* the base size for all rem in this media query */
 }
 
 body {
@@ -13,6 +13,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font: 2rem / 1.5rem;
 	margin-bottom: 10%;
+	line-height: 1.5;
+}
+
+p {
+	font-size: 1.2rem;
 }
 
 .row {
@@ -46,11 +51,19 @@ li, a {
 	line-height: 1.4rem;
 	}
 
-p a, p a:hover, p a:active {
+p a, p a:active {
 	color: rgba(195, 94, 42, 1);
-	text-decoration: underline;
+	text-decoration: none;
 	line-height: 1.4rem;
+  border-bottom: 1px dotted;
+  border-color: rgba(195, 94, 42, 0.5);
 	}
+
+p a:hover {
+	color: rgba(195, 94, 42, 1);
+	text-decoration: none;
+	border-color: rgba(195, 94, 42, 0);
+}
 
 /* TEST FOR MEDIA QUERIES */
 p {
