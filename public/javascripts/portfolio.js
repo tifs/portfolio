@@ -1,7 +1,7 @@
 // fixed-nav reveal on scroll
 $(window).scroll(function(e) {
     // once someone scrolls past a certain number of pixels on the y-axis...
-    if(window.scrollY > 195) {
+    if(window.scrollY > 245) {
       // we reveal fixed-nav on the page by changing the top in css to 0px
       $('.fixed-nav').css('top', '0px');
 } else {

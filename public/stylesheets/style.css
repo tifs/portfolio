@@ -106,9 +106,10 @@ width: 40%;
 .fixed-nav {
 	z-index: 1000;
 	position: fixed;
-	height: 1.6rem;
+	height: 3.1rem;
 	width: 95%;
 	top: -65px;
+	padding-top: 13px;
 	transition: top 600ms;
 	text-align: center;
 	text-transform: lowercase;
