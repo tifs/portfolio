@@ -3,6 +3,7 @@ var express = require("express"),
 app = express(),
 request = require("request");
 http = require("http");
+var AWS = require('aws-sdk');
 
 // middle ware
 
