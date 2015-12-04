@@ -4,6 +4,19 @@ app = express(),
 request = require("request");
 http = require("http");
 var AWS = require('aws-sdk');
+var s3 = new AWS.S3();
+
+ s3.createBucket({Bucket: 'tifsBucket'}, function() {
+
+  var params = {Bucket: 'tifsBucket', Key: 'myKey', Body: 'Hello!'};
+  s3.putObject(params, function(err, data) {
+      if (err)
+          console.log(err);
+      else       console.log("Successfully uploaded data to tifsBucket/myKey");
+   });
+});
+
+AWS.config.region = us-west-1;
 
 // middle ware
 
