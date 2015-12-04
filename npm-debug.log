@@ -1,190 +1,71 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--save', 'request' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'aws-sdkls' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.32
 4 warn package.json portfolio@1.0.0 No description
 5 warn package.json portfolio@1.0.0 No repository field.
 6 warn package.json portfolio@1.0.0 No README data
-7 warn package.json http@0.0.0 http is also the name of a node core module.
-8 warn package.json http@0.0.0 No description
-9 warn package.json http@0.0.0 No repository field.
-10 warn package.json http@0.0.0 No README data
-11 verbose readDependencies using package.json deps
-12 verbose cache add [ 'request', null ]
-13 verbose cache add name=undefined spec="request" args=["request",null]
-14 verbose parsed url { protocol: null,
-14 verbose parsed url   slashes: null,
-14 verbose parsed url   auth: null,
-14 verbose parsed url   host: null,
-14 verbose parsed url   port: null,
-14 verbose parsed url   hostname: null,
-14 verbose parsed url   hash: null,
-14 verbose parsed url   search: null,
-14 verbose parsed url   query: null,
-14 verbose parsed url   pathname: 'request',
-14 verbose parsed url   path: 'request',
-14 verbose parsed url   href: 'request' }
-15 silly lockFile 088e29b0-request request
-16 verbose lock request /Users/tifslama/.npm/088e29b0-request.lock
-17 silly lockFile 088e29b0-request request
-18 silly lockFile 088e29b0-request request
-19 verbose addNamed [ 'request', '' ]
-20 verbose addNamed [ null, '*' ]
-21 silly lockFile 9d461bcf-request request@
-22 verbose lock request@ /Users/tifslama/.npm/9d461bcf-request.lock
-23 silly addNameRange { name: 'request', range: '*', hasData: false }
-24 verbose request where is /request
-25 verbose request registry https://registry.npmjs.org/
-26 verbose request id d6366cb7b5c8c27a
-27 verbose url raw /request
-28 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
-29 verbose url resolved https://registry.npmjs.org/request
-30 verbose request where is https://registry.npmjs.org/request
-31 info trying registry request attempt 1 at 18:57:59
-32 verbose etag "4UE6N2SCXIAR0BHMO19ZRU87T"
-33 http GET https://registry.npmjs.org/request
-34 http 200 https://registry.npmjs.org/request
-35 silly registry.get cb [ 200,
-35 silly registry.get   { date: 'Wed, 04 Feb 2015 02:57:59 GMT',
-35 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-35 silly registry.get     etag: '"ANN1S9VUMB57AAIS0KK7L9R4G"',
-35 silly registry.get     'content-type': 'application/json',
-35 silly registry.get     'cache-control': 'max-age=60',
-35 silly registry.get     'content-length': '139870',
-35 silly registry.get     'accept-ranges': 'bytes',
-35 silly registry.get     via: '1.1 varnish',
-35 silly registry.get     age: '0',
-35 silly registry.get     'x-served-by': 'cache-sjc3134-SJC',
-35 silly registry.get     'x-cache': 'HIT',
-35 silly registry.get     'x-cache-hits': '1',
-35 silly registry.get     'x-timer': 'S1423018679.897562,VS0,VE33',
-35 silly registry.get     vary: 'Accept',
-35 silly registry.get     'keep-alive': 'timeout=10, max=50',
-35 silly registry.get     connection: 'Keep-Alive' } ]
-36 silly addNameRange number 2 { name: 'request', range: '*', hasData: true }
-37 silly addNameRange versions [ 'request',
-37 silly addNameRange   [ '0.10.0',
-37 silly addNameRange     '0.8.3',
-37 silly addNameRange     '0.9.0',
-37 silly addNameRange     '0.9.1',
-37 silly addNameRange     '0.9.5',
-37 silly addNameRange     '1.0.0',
-37 silly addNameRange     '1.1.0',
-37 silly addNameRange     '1.1.1',
-37 silly addNameRange     '1.2.0',
-37 silly addNameRange     '1.9.0',
-37 silly addNameRange     '1.9.1',
-37 silly addNameRange     '1.9.2',
-37 silly addNameRange     '1.9.3',
-37 silly addNameRange     '1.9.5',
-37 silly addNameRange     '1.9.7',
-37 silly addNameRange     '1.9.8',
-37 silly addNameRange     '1.9.9',
-37 silly addNameRange     '2.0.0',
-37 silly addNameRange     '2.0.1',
-37 silly addNameRange     '2.0.2',
-37 silly addNameRange     '2.0.3',
-37 silly addNameRange     '2.0.4',
-37 silly addNameRange     '2.0.5',
-37 silly addNameRange     '2.1.0',
-37 silly addNameRange     '2.1.1',
-37 silly addNameRange     '2.2.0',
-37 silly addNameRange     '2.2.5',
-37 silly addNameRange     '2.2.6',
-37 silly addNameRange     '2.2.9',
-37 silly addNameRange     '2.9.0',
-37 silly addNameRange     '2.9.1',
-37 silly addNameRange     '2.9.2',
-37 silly addNameRange     '2.9.3',
-37 silly addNameRange     '2.9.100',
-37 silly addNameRange     '2.9.150',
-37 silly addNameRange     '2.9.151',
-37 silly addNameRange     '2.9.152',
-37 silly addNameRange     '2.9.153',
-37 silly addNameRange     '2.9.200',
-37 silly addNameRange     '2.9.201',
-37 silly addNameRange     '2.9.202',
-37 silly addNameRange     '2.9.203',
-37 silly addNameRange     '2.10.0',
-37 silly addNameRange     '2.11.0',
-37 silly addNameRange     '2.11.1',
-37 silly addNameRange     '2.11.2',
-37 silly addNameRange     '2.11.3',
-37 silly addNameRange     '2.11.4',
-37 silly addNameRange     '2.12.0',
-37 silly addNameRange     '2.14.0',
-37 silly addNameRange     '2.16.0',
-37 silly addNameRange     '2.16.2',
-37 silly addNameRange     '2.16.4',
-37 silly addNameRange     '2.16.6',
-37 silly addNameRange     '2.18.0',
-37 silly addNameRange     '2.19.0',
-37 silly addNameRange     '2.20.0',
-37 silly addNameRange     '2.21.0',
-37 silly addNameRange     '2.22.0',
-37 silly addNameRange     '2.23.0',
-37 silly addNameRange     '2.24.0',
-37 silly addNameRange     '2.25.0',
-37 silly addNameRange     '2.26.0',
-37 silly addNameRange     '2.27.0',
-37 silly addNameRange     '2.28.0',
-37 silly addNameRange     '2.29.0',
-37 silly addNameRange     '2.30.0',
-37 silly addNameRange     '2.31.0',
-37 silly addNameRange     '2.32.0',
-37 silly addNameRange     '2.33.0',
-37 silly addNameRange     '2.34.0',
-37 silly addNameRange     '2.35.0',
-37 silly addNameRange     '2.36.0',
-37 silly addNameRange     '2.37.0',
-37 silly addNameRange     '2.38.0',
-37 silly addNameRange     '2.39.0',
-37 silly addNameRange     '2.40.0',
-37 silly addNameRange     '2.41.0',
-37 silly addNameRange     '2.42.0',
-37 silly addNameRange     '2.43.0',
-37 silly addNameRange     '2.44.0',
-37 silly addNameRange     '2.45.0',
-37 silly addNameRange     '2.46.0',
-37 silly addNameRange     '2.47.0',
-37 silly addNameRange     '2.48.0',
-37 silly addNameRange     '2.49.0',
-37 silly addNameRange     '2.50.0',
-37 silly addNameRange     '2.51.0',
-37 silly addNameRange     '2.52.0',
-37 silly addNameRange     '2.53.0' ] ]
-38 verbose addNamed [ 'request', '2.53.0' ]
-39 verbose addNamed [ '2.53.0', '2.53.0' ]
-40 silly lockFile aee8052e-request-2-53-0 request@2.53.0
-41 verbose lock request@2.53.0 /Users/tifslama/.npm/aee8052e-request-2-53-0.lock
-42 silly lockFile ba72365e-s-org-request-request-2-53-0-tgz https://registry.npmjs.org/request/-/request-2.53.0.tgz
-43 verbose lock https://registry.npmjs.org/request/-/request-2.53.0.tgz /Users/tifslama/.npm/ba72365e-s-org-request-request-2-53-0-tgz.lock
-44 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.53.0.tgz',
-44 verbose addRemoteTarball   '180a3ae92b7b639802e4f9545dd8fcdeb71d760c' ]
-45 info retry fetch attempt 1 at 18:57:59
-46 verbose fetch to= /var/folders/92/tc0k4l6d3qscmpm_pmj0_ct40000gn/T/npm-41623-jYZOHhuR/registry.npmjs.org/request/-/request-2.53.0.tgz
-47 http GET https://registry.npmjs.org/request/-/request-2.53.0.tgz
-48 http 200 https://registry.npmjs.org/request/-/request-2.53.0.tgz
-49 silly lockFile ba72365e-s-org-request-request-2-53-0-tgz https://registry.npmjs.org/request/-/request-2.53.0.tgz
-50 silly lockFile ba72365e-s-org-request-request-2-53-0-tgz https://registry.npmjs.org/request/-/request-2.53.0.tgz
-51 silly lockFile aee8052e-request-2-53-0 request@2.53.0
-52 silly lockFile aee8052e-request-2-53-0 request@2.53.0
-53 silly lockFile 9d461bcf-request request@
-54 silly lockFile 9d461bcf-request request@
-55 error Error: EACCES, mkdir '/Users/tifslama/.npm/request/2.53.0'
-55 error  { [Error: EACCES, mkdir '/Users/tifslama/.npm/request/2.53.0']
-55 error   errno: 3,
-55 error   code: 'EACCES',
-55 error   path: '/Users/tifslama/.npm/request/2.53.0',
-55 error   parent: 'portfolio' }
-56 error Please try running this command again as root/Administrator.
-57 error System Darwin 13.4.0
-58 error command "node" "/usr/local/bin/npm" "install" "--save" "request"
-59 error cwd /Users/tifslama/Code/week5/portfolio
-60 error node -v v0.10.32
-61 error npm -v 1.4.28
-62 error path /Users/tifslama/.npm/request/2.53.0
-63 error code EACCES
-64 error errno 3
-65 error stack Error: EACCES, mkdir '/Users/tifslama/.npm/request/2.53.0'
-66 verbose exit [ 3, true ]
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'aws-sdkls', null ]
+9 verbose cache add name=undefined spec="aws-sdkls" args=["aws-sdkls",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'aws-sdkls',
+10 verbose parsed url   path: 'aws-sdkls',
+10 verbose parsed url   href: 'aws-sdkls' }
+11 silly lockFile e6f17e26-aws-sdkls aws-sdkls
+12 verbose lock aws-sdkls /Users/tifslama/.npm/e6f17e26-aws-sdkls.lock
+13 silly lockFile e6f17e26-aws-sdkls aws-sdkls
+14 silly lockFile e6f17e26-aws-sdkls aws-sdkls
+15 verbose addNamed [ 'aws-sdkls', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 424cf510-aws-sdkls aws-sdkls@
+18 verbose lock aws-sdkls@ /Users/tifslama/.npm/424cf510-aws-sdkls.lock
+19 silly addNameRange { name: 'aws-sdkls', range: '*', hasData: false }
+20 verbose request where is /aws-sdkls
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id ba45756417eb0abb
+23 verbose url raw /aws-sdkls
+24 verbose url resolving [ 'https://registry.npmjs.org/', './aws-sdkls' ]
+25 verbose url resolved https://registry.npmjs.org/aws-sdkls
+26 verbose request where is https://registry.npmjs.org/aws-sdkls
+27 info trying registry request attempt 1 at 15:01:38
+28 http GET https://registry.npmjs.org/aws-sdkls
+29 http 404 https://registry.npmjs.org/aws-sdkls
+30 silly registry.get cb [ 404,
+30 silly registry.get   { 'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '2',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Fri, 04 Dec 2015 23:01:39 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-lax1423-LAX',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1449270099.767191,VS0,VE80' } ]
+31 silly lockFile 424cf510-aws-sdkls aws-sdkls@
+32 silly lockFile 424cf510-aws-sdkls aws-sdkls@
+33 error 404 Not Found
+33 error 404
+33 error 404 'aws-sdkls' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'portfolio'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Darwin 15.0.0
+35 error command "node" "/usr/local/bin/npm" "install" "aws-sdkls"
+36 error cwd /Users/tifslama/Documents/Projects/portfolio
+37 error node -v v0.10.32
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]
