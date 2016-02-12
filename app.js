@@ -16,8 +16,6 @@ var s3 = new AWS.S3();
    });
 });
 
-AWS.config.region = us-west-1;
-
 // middle ware
 
 app.use(express.static(__dirname + '/public'));
