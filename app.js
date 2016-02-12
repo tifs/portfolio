@@ -99,6 +99,6 @@ app.get('/tumblr', function(req,res){
 	res.render('tumblr/tumblr.ejs');
 });
 
-app.listen(80, function(){
+app.listen(8080, function(){
   console.log("let's look at this portfolio!");
 });
