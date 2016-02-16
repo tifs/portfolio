@@ -66,6 +66,18 @@ app.get('/work/minus8', function(req,res){
 	res.render('work/minus_8.ejs');
 });
 
+app.get('/work/codeology', function(req,res){
+  res.render('work/codeology.ejs');
+});
+
+app.get('/work/braintree', function(req,res){
+  res.render('work/braintree.ejs');
+});
+
+app.get('/work/wellsfargo', function(req,res){
+  res.render('work/wells_fargo.ejs');
+});
+
 app.get('/play/typothesis', function(req,res){
 	res.render('play/typothesis.ejs');
 });
