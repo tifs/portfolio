@@ -74,6 +74,10 @@ app.get('/work/braintree', function(req,res){
   res.render('work/braintree.ejs');
 });
 
+app.get('/work/btedu', function(req,res){
+  res.render('work/bt_edu.ejs');
+});
+
 app.get('/work/wellsfargo', function(req,res){
   res.render('work/wells_fargo.ejs');
 });
