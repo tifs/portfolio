@@ -115,6 +115,6 @@ app.get('/tumblr', function(req,res){
 	res.render('tumblr/tumblr.ejs');
 });
 
-app.listen(8080, function(){
-  console.log("let's look at this portfolio!");
+app.listen(process.env.PORT || 8080, function(){
+   console.log("let's look at this portfolio!");
 });
