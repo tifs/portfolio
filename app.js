@@ -103,12 +103,13 @@ app.get('/play/plantpeople', function(req,res){
 });
 
 app.get('/about', function(req,res){
-	var wnwUrl = "https://www.kimonolabs.com/api/alnefw9q?apikey=eEQAr4JifJfWjFfbzUIIAFnWC3Sh6uLT";
-	request(wnwUrl, function (err, response, body) {
-  	console.log(body);
-  	var wnwResult = (JSON.parse(body));
-		res.render('about/about.ejs', {wnwResult: wnwResult});
-	});
+	// var wnwUrl = "https://www.kimonolabs.com/api/alnefw9q?apikey=eEQAr4JifJfWjFfbzUIIAFnWC3Sh6uLT";
+	// request(wnwUrl, function (err, response, body) {
+ //  	console.log(body);
+ //  	var wnwResult = (JSON.parse(body));
+		// res.render('about/about.ejs', {wnwResult: wnwResult});
+	// });
+  res.render('about/about.ejs');
 });
 
 app.get('/tumblr', function(req,res){
