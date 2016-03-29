@@ -20,6 +20,34 @@ p {
 	font-size: 1.05rem;
 }
 
+blockquote {
+	color: rgba(135, 135, 135, 1);
+	font-style: italic;
+	border: 0;
+}
+
+blockquote:before {
+  color: rgba(135, 135, 135, 1);
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote:after {
+  color: rgba(135, 135, 135, 1);
+  content: close-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
 .row {
 margin: 0;
 margin-bottom: 6%;
