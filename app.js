@@ -106,6 +106,10 @@ app.get('/play/4thgifs', function(req,res){
   res.render('play/4th_gifs.ejs');
 });
 
+app.get('/play/2d1f', function(req,res){
+  res.render('play/2d1f.ejs');
+});
+
 app.get('/about', function(req,res){
 	// var wnwUrl = "https://www.kimonolabs.com/api/alnefw9q?apikey=eEQAr4JifJfWjFfbzUIIAFnWC3Sh6uLT";
 	// request(wnwUrl, function (err, response, body) {
