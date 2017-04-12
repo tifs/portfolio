@@ -82,6 +82,10 @@ app.get('/work/wellsfargo', function(req,res){
   res.render('work/wells_fargo.ejs');
 });
 
+app.get('/work/impossiblefoods', function(req,res){
+  res.render('work/impossiblefoods.ejs');
+});
+
 app.get('/play/typothesis', function(req,res){
 	res.render('play/typothesis.ejs');
 });
