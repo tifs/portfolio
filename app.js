@@ -86,6 +86,10 @@ app.get('/work/impossiblefoods', function(req,res){
   res.render('work/impossiblefoods.ejs');
 });
 
+app.get('/work/virginamerica', function(req,res){
+  res.render('work/virginamerica.ejs');
+});
+
 app.get('/play/typothesis', function(req,res){
 	res.render('play/typothesis.ejs');
 });
