@@ -90,6 +90,10 @@ app.get('/work/virginamerica', function(req,res){
   res.render('work/virginamerica.ejs');
 });
 
+app.get('/work/dropbox', function(req,res){
+  res.render('work/dropbox.ejs');
+});
+
 app.get('/play/typothesis', function(req,res){
 	res.render('play/typothesis.ejs');
 });
@@ -116,6 +120,14 @@ app.get('/play/4thgifs', function(req,res){
 
 app.get('/play/2d1f', function(req,res){
   res.render('play/2d1f.ejs');
+});
+
+app.get('/play/weddingspeech', function(req,res){
+  res.render('play/weddingspeech.ejs');
+});
+
+app.get('/play/sfbaes', function(req,res){
+  res.render('play/sfbaes.ejs');
 });
 
 app.get('/about', function(req,res){
