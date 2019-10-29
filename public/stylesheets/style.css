@@ -78,7 +78,7 @@ p a:hover {
 
 /* TEST FOR MEDIA QUERIES */
 p {
-	background-color: white;
+	background-color: rgba(221, 216, 215, 1);
 }
 
 header {
@@ -142,7 +142,7 @@ width: 40%;
 }
 
 .main-nav a:hover, .main-nav a:active, .fixed-nav a:hover, .fixed-nav a:active {
-	color: white;
+	color: rgba(221, 216, 215, 1);
 	background-color: rgba(253, 145, 107, 1);
 	text-decoration: none;
 }
@@ -174,7 +174,7 @@ width: 40%;
 /*  code for small-ish screens and up (i.e. tablets and most screens embedded in bionic arms)  */
 @media(min-width:768px) {
 p {
-	background-color: white;
+	background-color: rgba(221, 216, 215, 1);
 }
 
 header {
@@ -219,7 +219,7 @@ width: 22%;
 @media(min-width:992px) {
 
 	p {
-		background-color: white;
+		background-color: rgba(221, 216, 215, 1);
 	}
 
 	header {
@@ -264,7 +264,7 @@ width: 22%;
 @media(min-width:1200px) {
 
 	p {
-		background-color: white;
+		background-color: rgba(221, 216, 215, 1);
 	}
 
 	header {
