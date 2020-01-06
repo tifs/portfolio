@@ -150,7 +150,7 @@ width: 40%;
 /* styling for each project's intro */
 .intro-title {
 	font-size: 3rem;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	/*font-weight: 700;*/
 	text-align: center;
 	font-weight: bold;
@@ -160,7 +160,7 @@ width: 40%;
 .intro-head {
 	text-align: left;
 	letter-spacing: -1px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-weight: 600px;
 }
 
@@ -185,7 +185,7 @@ width: 22%;
 /* styling for each project's intro */
 .intro-title {
 	font-size: 3rem;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	/*font-weight: 700;*/
 	text-align: center;
 	font-weight: bold;
@@ -195,7 +195,7 @@ width: 22%;
 .intro-head {
 	text-align: left;
 	letter-spacing: -1px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-weight: 600px;
 }
 
@@ -230,7 +230,7 @@ width: 22%;
 	/* styling for each project's intro */
 	.intro-title {
 		font-size: 3.5rem;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Rubik', sans-serif;
 		/*font-weight: 700;*/
 		text-align: center;
 		font-weight: bold;
@@ -240,7 +240,7 @@ width: 22%;
 	.intro-head {
 		text-align: left;
 		letter-spacing: -1px;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Rubik', sans-serif;
 		font-weight: 600px;
 	}
 
