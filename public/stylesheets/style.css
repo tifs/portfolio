@@ -84,6 +84,10 @@ p {
 header {
 margin: 10px auto;
 width: 100%;
+font-size: 3rem;
+font-family: 'Rubik', sans-serif;
+font-weight: bold;
+color: rgba(253, 145, 107, 1);
 }
 
 /* styling for nav bar */
@@ -187,6 +191,10 @@ p {
 header {
 margin: 10px auto;
 width: 100%;
+font-size: 3rem;
+font-family: 'Rubik', sans-serif;
+font-weight: bold;
+color: rgba(253, 145, 107, 1);
 }
 
 /* styling for each project's intro */
@@ -236,6 +244,10 @@ width: 100%;
 	header {
   margin: 10px auto;
   width: 100%;
+  font-size: 3rem;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	color: rgba(253, 145, 107, 1);
 	}
 
 	/* styling for each project's intro */
@@ -285,6 +297,10 @@ width: 100%;
 	header {
   margin: 10px auto;
   width: 100%;
+  font-size: 3rem;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	color: rgba(253, 145, 107, 1);
 }
 
 }
