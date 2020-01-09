@@ -93,6 +93,7 @@ color: rgba(253, 145, 107, 1);
 
 header a:hover, a:active {
 	text-decoration: none;
+	color: rgba(253, 145, 107, 1);
 }
 
 /* styling for nav bar */
