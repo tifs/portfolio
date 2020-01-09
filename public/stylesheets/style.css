@@ -83,7 +83,7 @@ p {
 
 header {
 margin: 10px auto;
-width: 40%;
+width: 100%;
 }
 
 /* styling for nav bar */
@@ -186,7 +186,7 @@ p {
 
 header {
 margin: 10px auto;
-width: 22%;
+width: 100%;
 }
 
 /* styling for each project's intro */
@@ -235,7 +235,7 @@ width: 22%;
 
 	header {
   margin: 10px auto;
-  width: 16%;
+  width: 100%;
 	}
 
 	/* styling for each project's intro */
@@ -284,7 +284,7 @@ width: 22%;
 
 	header {
   margin: 10px auto;
-  width: 15%;
+  width: 100%;
 }
 
 }
