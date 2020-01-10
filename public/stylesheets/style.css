@@ -314,6 +314,10 @@ color: rgba(253, 145, 107, 1);
 
 }
 
+.tif-logo {
+	display: inline;
+}
+
 /* KEEP THIS AT THE BOTTOM PLEASE */
 .revealed {
 	visibility: visible;
